@@ -2,9 +2,9 @@
 
 import React, { useState } from 'react';
 import { Box, Tabs, Tab } from '@mui/material';
-import { ProcessManuscript } from '@/components/dashboard/reviewManuscript/ProcessManuscript';
+// import { ProcessManuscript } from '@/components/dashboard/reviewManuscript/ProcessManuscript';
 import { TabPanel } from '@/components/tabpanel/TabPanel';
-import { ReviewerManuscripts } from '@/components/dashboard/reviewManuscript/ReviewerManuscripts';
+// import { ReviewerManuscripts } from '@/components/dashboard/reviewManuscript/ReviewerManuscripts';
 
 
 const MainComponent: React.FC = () => {
@@ -23,10 +23,10 @@ const MainComponent: React.FC = () => {
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-        <ReviewerManuscripts />
+        {/* <ReviewerManuscripts /> */}
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <ProcessManuscript />
+        {/* <ProcessManuscript /> */}
       </TabPanel>
     </Box>
   );
